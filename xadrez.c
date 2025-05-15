@@ -11,7 +11,8 @@ int main() {
 
     int b = 0;
     int r = 0;
-    
+    int d = 1;
+       
     printf("*** Jogo de Xadrez! ***\n\n");
     printf("### Movimentando a Torre! ###\n");
 
@@ -36,11 +37,23 @@ int main() {
         r++;
         
     } while (r < 8);
-    
 
+
+     printf("\n### Movimentando o Cavalo! ###\n");
+
+      while (d --){
+
+
+     for (int c = 0; c < 2; c++){
+        printf("Cima!\n");
+    }
+
+    printf ("Direita!\n");   
+     }
 
     return 0;
  }
+
 
 
     // Implementação de Movimentação do Bispo
